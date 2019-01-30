@@ -22,6 +22,8 @@ setup(
     packages=['pyramid_authentic'],
     install_requires=[
         'pyramid',
+        'authomatic',
+        'pyjwt',
     ],
     author='IMIO',
     author_email='support@imio.be',
